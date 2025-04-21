@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <p>Submit your info below and we’ll be in touch!</p>
+    <a href="index.html" class="cta-button">Back to Home</a>
+  </header>
+
+  <main>
+    <section id="contact">
+      <form action="https://formspree.io/f/YOUR_FORMSPREE_URL_HERE" method="POST">
+        <label for="name">Your Name</label>
+        <input type="text" name="name" id="name" required />
+
+        <label for="email">Your Email</label>
+        <input type="email" name="email" id="email" required />
+
+        <label for="message">Your Message</label>
+        <textarea name="message" id="message" rows="5" required></textarea>
+
+        <button type="submit" class="cta-button">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+    </nav>
+    <p>&copy; 2025 Your Financial Solutions</p>
+  </footer>
+</body>
+</html>
